@@ -18,8 +18,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @Slf4j
 @Getter
-@RequiredArgsConstructor
 @Service
+@RequiredArgsConstructor
 public class CardCRUDService implements CRUDServiceCard<CardDto>{
 
     private final CardRepository cardRepository;
